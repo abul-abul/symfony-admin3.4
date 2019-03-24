@@ -30,6 +30,7 @@ class AppKernel extends Kernel
             // You need to add this dependency to make media functional
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+            new Symfony\Bundle\AsseticBundle\AsseticBundle(),
 
             // And finally
             new Sonata\AdminBundle\SonataAdminBundle(),
